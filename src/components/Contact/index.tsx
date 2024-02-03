@@ -946,7 +946,7 @@ const Contact = () => {
 
 export default Contact;
 
-const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
+const ContactTextArea = ({ row, placeholder, name, defaultValue }: any) => {
   return (
     <>
       <div className="mb-6">
